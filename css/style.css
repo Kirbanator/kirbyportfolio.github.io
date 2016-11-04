@@ -1,0 +1,107 @@
+body {
+  background-image: url(../img/background.jpg);
+  
+}
+
+/* Body font */
+
+nav,main,article,section,p{
+ font-family: 'Oswald', sans-serif; 
+}
+
+/* NAVIGATION BAR */
+
+nav {
+  margin-top: 50px;
+  width: 100%;
+  height: 140px;
+  padding: 0;
+}
+
+.logo {
+    width: 168px;
+    height: 130px;
+    margin-top: 5px;
+    margin-left: 100px;
+    transition: background-image 0.5s ease-in-out;
+    background-image: url(../img/whitelogo.png);
+    display: block;
+    float: left;
+}
+
+.logo:hover {
+  background-image: url(../img/greylogo.png);
+  cursor: pointer;
+}
+
+.menu {
+  height: 30px;
+  width: 600px;
+  float: right;
+  margin-right: 100px;
+  color: white;
+  margin-top: 55px;
+}
+
+.menuitem {
+  font-family: 'Anton', sans-serif;
+  margin-right: 78px;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   display: block;
+}
+
+ul.menu li {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
+ul.menu a {
+  color: white;
+}
+
+ul.menu a:hover {
+  color: greenyellow;
+  cursor: pointer;
+}
+
+
+.clearfix {
+  clear: both;
+}
+
+/* HAMBURGER MENU */
+.bar1, .bar2, .bar3 {
+    width: 50px;
+    height: 8px;
+    background-color: white;
+    margin: 3px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+

@@ -1,0 +1,120 @@
+/* SMALL PHONE */
+@media screen and (max-width:300px) and (min-width:1px) {
+  ul.menu {
+    display: none;
+  }
+  
+  .hbmenu {
+    display: block;
+  }
+  
+  .hblist {
+    display: none;
+  }
+}
+
+/* SMARTPHONE */
+
+@media screen and (max-device-width: 361px) and (min-width:301px){
+  ul.menu {
+    display: none;
+  }
+  
+  .hbmenu {
+    display: inline-block;
+    cursor: pointer;
+    float: right;
+    margin: 50px 157px auto !important;
+  }
+  
+  .logo {
+    width: 168px;
+    height: 130px;
+    margin: 0 70px auto;
+    background-image: url(../img/whitelogo.png);
+    display: block;
+    float: left;
+  }
+  
+  .hblist {
+    position: relative;
+    z-index: -10;
+    margin-top: 20px;
+    display: none;
+  }
+  
+  .hbmenuitem {
+    opacity: 0;
+    width: 100%;
+    padding: 10px 10px 10px 15px;
+    border-bottom: 1px solid #000;
+    background-color: greenyellow;
+    transition: opacity .5s ease;
+  }
+  .showItem {
+    opacity: 1;
+    transition: opacity .5s ease; 
+  }
+
+  .hbmenuitem:active {
+    background-color: #9be52a;
+  }  
+
+  .show {
+    display: block;
+    z-index: 100;
+  }
+}
+
+/* IPAD */
+
+@media screen and (max-device-width: 769px) and (min-width:362px){
+  ul.menu {
+    display: none;
+  }
+  
+  .hbmenu {
+    display: inline-block;
+    cursor: pointer;
+    float: right;
+    margin: 50px 128px auto
+  }
+  
+  .logo {
+    width: 168px;
+    height: 130px;
+    margin: 0 70px auto;
+    background-image: url(../img/whitelogo.png);
+    display: block;
+    float: left;
+  }
+  
+  .hblist {
+    position: relative;
+    z-index: -10;
+    margin-top: 20px;
+    display: none;
+  }
+  
+  .hbmenuitem {
+    opacity: 0;
+    width: 100%;
+    padding: 10px 10px 10px 15px;
+    border-bottom: 1px solid #000;
+    background-color: greenyellow;
+    transition: opacity .5s ease;
+  }
+  .showItem {
+    opacity: 1;
+    transition: opacity .5s ease; 
+  }
+
+  .hbmenuitem:active {
+    background-color: #9be52a;
+  }  
+
+  .show {
+    display: block;
+    z-index: 100;
+  }
+}
