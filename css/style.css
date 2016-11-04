@@ -50,6 +50,9 @@ nav {
   font-size: x-large;
 }
 
+.hbmenu {
+  display: none;
+}
 
 ul {
     list-style-type: none;
