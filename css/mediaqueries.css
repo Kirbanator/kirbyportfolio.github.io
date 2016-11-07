@@ -11,6 +11,12 @@
   .hblist {
     display: none;
   }
+  
+   .mb-icon {
+    margin-right: 15px;
+    position: relative;
+    top: 0px;
+  }
 }
 
 /* SMARTPHONE */
@@ -61,10 +67,18 @@
     background-color: #9be52a;
   }  
 
+  .mb-icon {
+    margin-right: 15px;
+    position: relative;
+    top: 0px;
+  }
+
   .show {
     display: block;
     z-index: 100;
   }
+  
+  
 }
 
 /* IPAD */
@@ -110,6 +124,12 @@
   .showItem {
     opacity: 1;
     transition: opacity .5s ease; 
+  }
+  
+   .mb-icon {
+    margin-right: 15px;
+    position: relative;
+    top: 0px;
   }
 
   .hbmenuitem:active {
