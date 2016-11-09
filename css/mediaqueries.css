@@ -54,6 +54,7 @@
   list-style-type: none;
   color: #000;
   display: inline-block;
+    width: 91%;
 }
   
   .hbmenuitem {
@@ -144,6 +145,7 @@
   list-style-type: none;
   color: #000;
   display: inline-block;
+  width: 90%;
 }
   
   .hbmenuitem {
@@ -243,6 +245,14 @@
     transition: opacity .5s ease; 
   }
   
+  .mba {
+  text-decoration: none !important;
+  list-style-type: none;
+  color: #000;
+  display: inline-block;
+  width: 90%;
+}
+  
    .mb-icon {
     margin-right: 15px;
     position: relative;
@@ -273,6 +283,7 @@
   .portcontainer {
     width: 100%;
     height: auto;
+    display: block;
   }
   
   .portimg {
@@ -282,3 +293,65 @@
   }
 }
 
+/*COLLEGE MACS AND BIG SCREENS*/
+
+@media screen and (min-width: 1919px) and (max-width:2000px){
+  .hblist{
+    display: none;
+  }
+  
+  .print {
+    width: 342px;
+    height: auto;
+    float: left;
+  }
+  
+  .firstrow {
+    width: 100%;
+    height: 484px;
+    display: block;
+    margin-top: 50px;
+    margin-left: 339px;
+  }
+  
+  .secondrow {
+    width: 100%;
+    height: 484px;
+    display: block;
+    margin-left: 339px;
+    margin-top: 50px;
+
+  }
+  
+  .row-one-img{
+    margin-left: 50px;
+    display: block;
+    position: relative;
+  }
+  
+  .row-two-img{
+    margin-left: 50px;
+  }
+  
+  .img_hover {
+    opacity: 0;
+    display: block;
+    height: 200px;
+    position: relative;
+    z-index: 99;
+  }
+  
+  .portimg:hover ~ .img_hover {
+    opacity: 1;
+    background: rgba(16, 16, 15, 0.5);
+    display: block;
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+}
