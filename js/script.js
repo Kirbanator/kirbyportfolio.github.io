@@ -16,3 +16,18 @@ hbMenuIcon.on('click', function(){
   
 });
 
+
+/* Mobile portfolio imfo */
+$('.print').on('click', function(){
+  
+  if($(this).children('.img_hover').hasClass('open')) {
+    $(this).children('.img_hover').animate({
+    'opacity': 0
+    }, 500).removeClass('open');
+  } else {
+    $(this).children('.img_hover').animate({
+    'opacity': 1
+    }, 500).addClass('open');
+  }
+  
+});
