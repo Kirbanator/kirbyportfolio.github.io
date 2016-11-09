@@ -142,7 +142,7 @@
     margin-top: 80px;
   }
   
-  .print:focus .img_hover {
+  .print:hover .img_hover {
     opacity: 1;
     background: rgba(16, 16, 15, 0.5);
     display: block;
@@ -280,7 +280,7 @@
     margin-top: 80px;
   }
   
-  .print:focus .img_hover {
+  .print:hover .img_hover {
     opacity: 1;
     background: rgba(16, 16, 15, 0.5);
     display: block;
