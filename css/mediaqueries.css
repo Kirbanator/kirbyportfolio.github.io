@@ -107,6 +107,53 @@
     margin: 0 auto 20px;
     display: block;
   }
+  
+  .row {
+    width: 342px;
+    display: block;
+    margin: 0 auto;
+
+  }
+  .row-one-img{
+
+    display: block;
+    position: relative;
+  }
+  
+  .row-two-img{
+     display: block;
+    position: relative;
+  }
+  .img_hover {
+    opacity: 0;
+    display: block;
+    position: absolute;
+     top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    
+  }
+  
+  .img_hover h2 {
+    margin-top: 80px;
+  }
+  
+  .print:focus .img_hover {
+    opacity: 1;
+    background: rgba(16, 16, 15, 0.5);
+    display: block;
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    
+  }
 }
 
 /* SMARTPHONE */
@@ -197,6 +244,53 @@
     width: 340px;
     margin: 0 auto 20px;
     display: block;
+  }
+  
+  .row {
+    width: 342px;
+    display: block;
+    margin: 0 auto;
+
+  }
+  .row-one-img{
+
+    display: block;
+    position: relative;
+  }
+  
+  .row-two-img{
+     display: block;
+    position: relative;
+  }
+  .img_hover {
+    opacity: 0;
+    display: block;
+    position: absolute;
+     top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    
+  }
+  
+  .img_hover h2 {
+    margin-top: 80px;
+  }
+  
+  .print:focus .img_hover {
+    opacity: 1;
+    background: rgba(16, 16, 15, 0.5);
+    display: block;
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    
   }
 }
 
@@ -291,6 +385,57 @@
     margin: 0 auto 20px;
     display: block;
   }
+  
+/*
+  .handrender {
+    margin-top: -200px;
+  }
+*/.row {
+    width: 342px;
+    display: block;
+    margin: 0 auto;
+
+  }
+  .row-one-img{
+
+    display: block;
+    position: relative;
+  }
+  
+  .row-two-img{
+     display: block;
+    position: relative;
+  }
+  .img_hover {
+    opacity: 0;
+    display: block;
+    position: absolute;
+     top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    
+  }
+  
+  .img_hover h2 {
+    margin-top: 80px;
+  }
+  
+  .print:hover .img_hover {
+    opacity: 1;
+    background: rgba(16, 16, 15, 0.5);
+    display: block;
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    
+  }
 }
 
 /*COLLEGE MACS AND BIG SCREENS*/
@@ -306,15 +451,8 @@
     float: left;
   }
   
-  .firstrow {
-    width: 100%;
-    height: 484px;
-    display: block;
-    margin-top: 50px;
-    margin-left: 339px;
-  }
   
-  .secondrow {
+  .row {
     width: 100%;
     height: 484px;
     display: block;
@@ -331,17 +469,40 @@
   
   .row-two-img{
     margin-left: 50px;
+     display: block;
+    position: relative;
+  }
+  
+  .advert {
+    margin-top: -200px;
+  }
+  
+   .manip1 {
+    margin-top: -35px;
+  }
+  
+   .manip2 {
   }
   
   .img_hover {
     opacity: 0;
     display: block;
-    height: 200px;
-    position: relative;
+    position: absolute;
+     top: 0;
+    left: 0;
     z-index: 99;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    
   }
   
-  .portimg:hover ~ .img_hover {
+  .img_hover h2 {
+    margin-top: 80px;
+  }
+  
+  .print:hover .img_hover {
     opacity: 1;
     background: rgba(16, 16, 15, 0.5);
     display: block;
