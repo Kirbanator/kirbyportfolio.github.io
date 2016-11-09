@@ -140,6 +140,13 @@
   
   .img_hover h2 {
     margin-top: 80px;
+    color: white;
+    text-align: center;
+  }
+  
+  .img_hover p {
+    color: white;
+    text-align: center;
   }
   
   .print:hover .img_hover {
