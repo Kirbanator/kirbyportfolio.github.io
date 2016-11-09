@@ -19,6 +19,94 @@
     display: inline-block;
   }
 }
+/* SToopidPHONE */
+
+@media screen and (max-width: 413px) and (min-width:410px){
+  ul.menu {
+    display: none;
+  }
+  
+  .hbmenu {
+    display: inline-block;
+    cursor: pointer;
+    float: none;
+    margin: 50px auto 0;
+    width: 100%;
+  }
+  
+  .logo {
+    width: 168px;
+    height: 130px;
+    background-image: url(../img/whitelogo.png);
+    display: block;
+    float: left;
+  }
+  
+  .hblist {
+    position: relative;
+    z-index: -10;
+    margin-top: 20px;
+    display: none;
+  }
+  
+  .mba {
+  text-decoration: none !important;
+  list-style-type: none;
+  color: #000;
+  display: inline-block;
+}
+  
+  .hbmenuitem {
+    opacity: 0;
+    width: 100%;
+    padding: 10px 10px 10px 15px;
+    border-bottom: 1px solid #000;
+    background-color: greenyellow;
+    transition: opacity .5s ease;
+  }
+  .showItem {
+    opacity: 1;
+    transition: opacity .5s ease; 
+  }
+
+  .hbmenuitem:active {
+    background-color: #9be52a;
+  }  
+
+  .mb-icon {
+    margin-right: 15px;
+    position: relative;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+  }
+
+  .show {
+    display: block;
+    z-index: 100;
+  }
+  
+  .page-head {
+    color: white;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    word-spacing: 6px;
+    margin-top: 30px;
+    font-size: 25px;
+  }
+  
+  .portcontainer {
+    width: 100%;
+    height: auto;
+  }
+  
+  .portimg {
+    width: 340px;
+    margin: 0 auto 20px;
+    display: block;
+  }
+}
 
 /* SMARTPHONE */
 
@@ -112,7 +200,7 @@
 
 /* IPAD */
 
-@media screen and (max-width: 769px) and (min-width:376px){
+@media screen and (max-width: 769px) and (min-width:750px){
   ul.menu {
     display: none;
   }
