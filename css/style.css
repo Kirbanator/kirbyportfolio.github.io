@@ -5,7 +5,7 @@ body {
 
 /* Body font */
 
-nav,main,article,section,p{
+nav,main,article,section,p,a{
  font-family: 'Oswald', sans-serif; 
 }
 
