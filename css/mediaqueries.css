@@ -212,6 +212,13 @@
     margin: 0px 57px auto;
   }
   
+   .mainbanner {
+    background-image: url(../img/intro-banner-iphone.png);
+    width: 289px;
+    height: 347px;
+    margin: 100px auto;
+  }
+  
 }
 
 /* SMARTPHONE */
@@ -397,6 +404,13 @@
     top: -447px;
   }
   
+    .mainbanner {
+    background-image: url(../img/intro-banner-iphone.png);
+    width: 289px;
+    height: 347px;
+    margin: 100px auto;
+  }
+  
   
 }
 
@@ -542,6 +556,13 @@
     margin: 0 auto;
   }
   
+    .mainbanner {
+    background-image: url(../img/intro-banner-ipad.png);
+    width: 434px;
+    height: 520px;
+    margin: 150px auto;
+  }
+  
   
 }
 
@@ -666,6 +687,13 @@
     top: -720px;
   }
   
+    .mainbanner {
+    background-image: url(../img/intro-banner.png);
+    width: 1264.67px;
+    height: 254.4px;
+    margin: 150px auto;
+  }
+  
   
 }
 
@@ -766,6 +794,12 @@
     top: 20px;
   }
   
+    .mainbanner {
+    background-image: url(../img/intro-banner.png);
+    width: 1264.67px;
+    height: 254.4px;
+    margin: 200px auto;
+  }
   
 }
 
@@ -871,4 +905,10 @@
     top: 20px;
   }
   
+  .mainbanner {
+    background-image: url(../img/intro-banner.png);
+    width: 1264.67px;
+    height: 254.4px;
+    margin: 150px auto;
+  }
 }
