@@ -152,6 +152,66 @@
     text-align: center;
   }
   
+   .razer {
+    display: block;
+    width: 534px;
+    height: 382px;
+    transform: scale(0.6);
+    position: relative;
+    left: -118px;
+    top: -60px;
+  }
+  
+   .apex {
+    display: block;
+    width: 534px;
+    height: 382px;
+     transform: scale(0.6);
+    position: relative;
+    left: -118px;
+    top: -180px;
+
+  }
+  
+    .bookklub {
+    display: block;
+    width: 534px;
+    height: 382px;
+    transform: scale(0.6);
+    position: relative;
+    left: -118px;
+    top: -300px;
+  }
+  
+   .dash {
+    display: block;
+    width: 534px;
+    height: 382px;
+     transform: scale(0.6);
+    position: relative;
+    left: -118px;
+    top: -420px;
+  }
+  
+  .showreel-container {
+    width: 360px;
+    height: 210px;
+    position: relative;
+    background-image: url(../img/showreelplaceholderphn.png);
+    margin: 0 auto;
+    position: relative;
+    top: -400px;
+  }
+  
+  .page-head-showreel {
+    position: relative;
+    top: -447px;
+  }
+  
+  .web-contain {
+    margin: 0px 57px auto;
+  }
+  
 }
 
 /* SMARTPHONE */
@@ -229,8 +289,8 @@
     text-align: center;
     font-family: 'Anton', sans-serif;
     word-spacing: 6px;
-    margin-top: 50px;
     font-size: 25px;
+
   }
   
   .portcontainer {
@@ -280,6 +340,63 @@
   .img_hover h2 {
     margin-top: 80px;
   }
+  
+  .razer {
+    display: block;
+    width: 534px;
+    height: 382px;
+    transform: scale(0.6);
+    position: relative;
+    left: -118px;
+    top: -60px;
+  }
+  
+   .apex {
+    display: block;
+    width: 534px;
+    height: 382px;
+     transform: scale(0.6);
+    position: relative;
+    left: -118px;
+    top: -180px;
+
+  }
+  
+    .bookklub {
+    display: block;
+    width: 534px;
+    height: 382px;
+    transform: scale(0.6);
+    position: relative;
+    left: -118px;
+    top: -300px;
+  }
+  
+   .dash {
+    display: block;
+    width: 534px;
+    height: 382px;
+     transform: scale(0.6);
+    position: relative;
+    left: -118px;
+    top: -420px;
+  }
+  
+  .showreel-container {
+    width: 360px;
+    height: 210px;
+    position: relative;
+    background-image: url(../img/showreelplaceholderphn.png);
+    margin: 0 auto;
+    position: relative;
+    top: -400px;
+  }
+  
+  .page-head-showreel {
+    position: relative;
+    top: -447px;
+  }
+  
   
 }
 
@@ -375,10 +492,6 @@
     display: block;
   }
   
-/*
-  .handrender {
-    margin-top: -200px;
-  }
 */.row {
     width: 342px;
     display: block;
@@ -403,6 +516,86 @@
     top: 0;
     left: 0;
     z-index: 99;
+    width: 342px;
+    margin: 0px 212px;
+    height: 100%;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    
+  }
+  
+  .img_hover h2 {
+    margin-top: 80px;
+  }
+  
+  .web-contain {
+    width: 80%;
+    margin: 0px 142px auto;
+    margin-bottom: 10px;
+}
+  .showreel-container {
+    width: 575px;
+    height: 330px;
+    position: relative;
+    background-image: url(../img/showreelplaceholderipad.png);
+    margin: 0 auto;
+  }
+  
+  
+}
+
+/*Smaller laptops*/
+
+@media screen and (min-width: 1270px) and (max-width:1290px){
+  
+  .hblist{
+    display: none;
+  }
+  
+  .print {
+    width: 342px;
+    height: auto;
+    float: left;
+  }
+  
+  
+  .row {
+    height: 484px;
+    display: block;
+    margin: 0px 4px auto 18px;
+
+  }
+  
+  .row-one-img{
+    margin-left: 50px;
+    display: block;
+    position: relative;
+  }
+  
+  .row-two-img{
+    margin-left: 50px;
+     display: block;
+    position: relative;
+  }
+  
+  .advert {
+    margin-top: -160px;
+  }
+  
+  
+   .manip2 {
+     margin-top: 45px;
+  }
+  
+  .img_hover {
+    opacity: 0;
+    display: block;
+    position: absolute;
+    background: rgba(16, 16, 15, 0.5);
+    top: 0;
+    left: 0;
+    z-index: 99;
     width: 100%;
     height: 100%;
     text-align: center;
@@ -415,7 +608,167 @@
     margin-top: 80px;
   }
   
+   .razer {
+    display: block;
+    width: 534px;
+    height: 382px;
+    position: relative;
+    transform: scale(0.8);
+    
+  }
+  
+   .apex {
+    display: block;
+    width: 534px;
+    height: 382px;
+    position: relative;
+    float: right;
+    top: -387px;
+    transform: scale(0.8);
+    
+  }
+  
+    .bookklub {
+    display: block;
+    width: 534px;
+    height: 382px;
+    position: relative;
+    top: -387px;
+    transform: scale(0.8);
+  }
+  
+   .dash {
+    display: block;
+    width: 534px;
+    height: 382px;
+    position: relative;
+    float: right;
+    top: -777px;
+    transform: scale(0.8);
+  }
+  
+  .page-head-showreel {
+    color: white;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    word-spacing: 6px;
+    font-size: 40px;
+    position: relative;
+    top: -767px;
+  }
+  
+  .showreel-container {
+    width: 1000px;
+    height: 570px;
+    position: relative;
+    background-image: url(../img/showreelplaceholder.png);
+    margin: 0 auto;
+    top: -720px;
+  }
+  
+  
 }
+
+/*Bigger laptops*/
+
+@media screen and (min-width: 1430px) and (max-width:1450px){
+  
+  .hblist{
+    display: none;
+  }
+  
+  .print {
+    width: 342px;
+    height: auto;
+    float: left;
+  }
+  
+  
+  .row {
+    height: 484px;
+    display: block;
+    margin: 0px 4px auto 96px;
+
+  }
+  
+  .row-one-img{
+    margin-left: 50px;
+    display: block;
+    position: relative;
+  }
+  
+  .row-two-img{
+    margin-left: 50px;
+     display: block;
+    position: relative;
+  }
+  
+  .advert {
+    margin-top: -160px;
+  }
+  
+  
+   .manip2 {
+     margin-top: 45px;
+  }
+  
+  .img_hover {
+    opacity: 0;
+    display: block;
+    position: absolute;
+    background: rgba(16, 16, 15, 0.5);
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    
+  }
+  
+  .img_hover h2 {
+    margin-top: 80px;
+  }
+  
+  .razer {
+    display: block;
+    width: 534px;
+    height: 382px;
+    position: relative;
+    
+  }
+  
+   .apex {
+    display: block;
+    width: 534px;
+    height: 382px;
+    position: relative;
+    float: right;
+    
+  }
+  
+    .bookklub {
+    display: block;
+    width: 534px;
+    height: 382px;
+    position: relative;
+    top: 20px;
+  }
+  
+   .dash {
+    display: block;
+    width: 534px;
+    height: 382px;
+    position: relative;
+    float: right;
+    top: 20px;
+  }
+  
+  
+}
+
 
 /*COLLEGE MACS AND BIG SCREENS*/
 
@@ -432,7 +785,6 @@
   
   
   .row {
-    width: 100%;
     height: 484px;
     display: block;
     margin-left: 339px;
@@ -481,6 +833,42 @@
   
   .img_hover h2 {
     margin-top: 80px;
+  }
+  
+  .razer {
+    display: block;
+    width: 534px;
+    height: 382px;
+    position: relative;
+    left: 150px;
+  }
+  
+   .apex {
+    display: block;
+    width: 534px;
+    height: 382px;
+    position: relative;
+    float: right;
+    right: 150px;
+  }
+  
+    .bookklub {
+    display: block;
+    width: 534px;
+    height: 382px;
+    position: relative;
+    left: 150px;
+    top: 20px;
+  }
+  
+   .dash {
+    display: block;
+    width: 534px;
+    height: 382px;
+    position: relative;
+    float: right;
+    right: 150px;
+    top: 20px;
   }
   
 }
