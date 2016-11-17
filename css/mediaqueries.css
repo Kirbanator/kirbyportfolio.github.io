@@ -219,6 +219,43 @@
     margin: 100px auto;
   }
   
+   .mainbanner {
+    background-image: url(../img/intro-banner-iphone.png);
+    width: 230.13px;
+    height: 271.42px;
+    margin: 100px auto;
+  }
+  
+  .aboutbanner {
+    background-image: url(../img/about-banner-iphone.png);
+    width: 189px;
+    height: 60px;
+    margin: 250px auto;
+  }
+  
+  .about-text {
+    background-image: url(../img/about-text-iphone.png);
+    width: 300px;
+    height: 484px;
+    margin: -160px auto;
+  }
+  
+  .contact-banner {
+    background-image: url(../img/contact-banner-iphone.png);
+    width: 189px;
+    height: 60px;
+    margin: 250px auto;
+  }
+  
+   .contact-info {
+    background-image: url(../img/contact-text-iphone.png);
+    width: 300px;
+    height: 218px;
+    margin: 0 auto;
+    position: relative;
+    top: -150px;
+  }
+  
 }
 
 /* SMARTPHONE */
@@ -411,6 +448,36 @@
     margin: 100px auto;
   }
   
+  .aboutbanner {
+    background-image: url(../img/about-banner-iphone.png);
+    width: 189px;
+    height: 60px;
+    margin: 250px auto;
+  }
+  
+  .about-text {
+    background-image: url(../img/about-text-iphone.png);
+    width: 300px;
+    height: 484px;
+    margin: -160px auto;
+  }
+  
+   .contact-banner {
+    background-image: url(../img/contact-banner-iphone.png);
+    width: 189px;
+    height: 60px;
+    margin: 250px auto;
+  }
+  
+   .contact-info {
+    background-image: url(../img/contact-text-iphone.png);
+    width: 300px;
+    height: 218px;
+    margin: 0 auto;
+    position: relative;
+    top: -150px;
+  }
+  
   
 }
 
@@ -563,6 +630,44 @@
     margin: 150px auto;
   }
   
+  .aboutbanner {
+    background-image: url(../img/about-banner.png);
+    width: 439px;
+    height: 112px;
+    margin: 250px auto;
+  }
+  
+  .about-text {
+    background-image: url(../img/about-text-ipad.png);
+    width: 434px;
+    height: 388px;
+    margin: 0 auto;
+    transform: scale(1.5);
+  }
+  
+   .about-profile {
+    background-image: url(../img/about-img.png);
+    width: 343px;
+    height: 343px;
+    transform: scale(0.8);
+    margin: 69px auto;
+  }
+  
+   .contact-banner {
+    background-image: url(../img/contact-banner.png);
+    width: 290px;
+    height: 83px;
+    margin: 250px auto;
+  }
+  
+  .contact-info {
+    background-image: url(../img/contact-text-ipAD.png);
+    width: 434px;
+    height: 279px;
+    margin: 0 auto;
+    position: relative;
+    top: -100px;
+  }
   
 }
 
@@ -694,6 +799,51 @@
     margin: 150px auto;
   }
   
+  .aboutbanner {
+    background-image: url(../img/about-banner.png);
+    width: 439px;
+    height: 112px;
+    margin: 250px auto;
+  }
+  
+  .about-text {
+    background-image: url(../img/about-text.png);
+    width: 1037px;
+    height: 386px;
+    float: left;
+    margin-top: -100px;
+    transform: scale(0.6);
+    margin-left: -115px;
+  }
+  
+  .about-profile {
+    background-image: url(../img/about-img.png);
+    width: 343px;
+    height: 343px;
+    float: right;
+    margin-top: -358px;
+    margin-right: 45px;
+    transform: scale(0.6);
+  }
+  
+  .contact-banner {
+    background-image: url(../img/contact-banner.png);
+    width: 290px;
+    height: 83px;
+    margin: 0 auto;
+    position: relative;
+    top: 360px;
+  }
+  
+  .contact-info {
+    background-image: url(../img/contact-text-ipAD.png);
+    width: 434px;
+    height: 279px;
+    margin: 0 auto;
+    position: relative;
+    top: 500px;
+  }
+  
   
 }
 
@@ -799,6 +949,50 @@
     width: 1264.67px;
     height: 254.4px;
     margin: 200px auto;
+  }
+  
+  .aboutbanner {
+    background-image: url(../img/about-banner.png);
+    width: 439px;
+    height: 112px;
+    margin: 250px auto;
+  }
+  
+  .about-text {
+    background-image: url(../img/about-text.png);
+    width: 1037px;
+    height: 386px;
+    float: left;
+    margin-top: -100px;
+    transform: scale(0.8)
+  }
+  
+  .about-profile {
+    background-image: url(../img/about-img.png);
+    width: 343px;
+    height: 343px;
+    float: right;
+    margin-top: -85px;
+    margin-right: 45px;
+    transform: scale(0.8);
+  }
+  
+  .contact-banner {
+    background-image: url(../img/contact-banner.png);
+    width: 290px;
+    height: 83px;
+    margin: 0 auto;
+    position: relative;
+    top: 400px;
+  }
+  
+   .contact-info {
+    background-image: url(../img/contact-text-ipAD.png);
+    width: 434px;
+    height: 279px;
+    margin: 0 auto;
+    position: relative;
+    top: 500px;
   }
   
 }
@@ -909,6 +1103,49 @@
     background-image: url(../img/intro-banner.png);
     width: 1284.67px;
     height: 254.4px;
-    margin: 150px auto;
+    margin: 200px auto;
+  }
+  
+   .aboutbanner {
+    background-image: url(../img/about-banner.png);
+    width: 439px;
+    height: 112px;
+    margin: 250px auto;
+  }
+  
+  .about-text {
+    background-image: url(../img/about-text.png);
+    width: 1037px;
+    height: 386px;
+    float: left;
+    margin-top: -100px;
+    margin-left: 150px;
+  }
+  
+  .about-profile {
+    background-image: url(../img/about-img.png);
+    width: 343px;
+    height: 343px;
+    float: right;
+    margin-top: -100px;
+    margin-right: 150px;
+  }
+  
+  .contact-banner {
+    background-image: url(../img/contact-banner.png);
+    width: 290px;
+    height: 83px;
+    margin: 0 auto;
+    position: relative;
+    top: 400px;
+  }
+  
+  .contact-info {
+    background-image: url(../img/contact-text-ipAD.png);
+    width: 434px;
+    height: 279px;
+    margin: 0 auto;
+    position: relative;
+    top: 500px;
   }
 }
