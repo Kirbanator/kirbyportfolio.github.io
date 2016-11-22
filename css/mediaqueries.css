@@ -197,7 +197,6 @@
     width: 360px;
     height: 210px;
     position: relative;
-    background-image: url(../img/showreelplaceholderphn.png);
     margin: 0 auto;
     position: relative;
     top: -400px;
@@ -254,6 +253,11 @@
     margin: 0 auto;
     position: relative;
     top: -150px;
+  }
+  
+   .showreelvid {
+    width:360px; 
+    height:210px;
   }
   
 }
@@ -430,7 +434,6 @@
     width: 360px;
     height: 210px;
     position: relative;
-    background-image: url(../img/showreelplaceholderphn.png);
     margin: 0 auto;
     position: relative;
     top: -400px;
@@ -476,6 +479,11 @@
     margin: 0 auto;
     position: relative;
     top: -150px;
+  }
+  
+  .showreelvid {
+    width:360px; 
+    height:210px;
   }
   
   
@@ -619,7 +627,6 @@
     width: 575px;
     height: 330px;
     position: relative;
-    background-image: url(../img/showreelplaceholderipad.png);
     margin: 0 auto;
   }
   
@@ -669,11 +676,15 @@
     top: -100px;
   }
   
+  .showreelvid {
+    width:575px; 
+    height:330px;
+  }
 }
 
 /*Smaller laptops*/
 
-@media screen and (min-width: 1270px) and (max-width:1290px){
+@media screen and (min-width: 1270px) and (max-width:1367px){
   
   .hblist{
     display: none;
@@ -787,7 +798,6 @@
     width: 1000px;
     height: 570px;
     position: relative;
-    background-image: url(../img/showreelplaceholder.png);
     margin: 0 auto;
     top: -720px;
   }
@@ -844,6 +854,10 @@
     top: 500px;
   }
   
+  .showreelvid {
+    width:1000px; 
+    height:570px;
+  }
   
 }
 
@@ -993,6 +1007,11 @@
     margin: 0 auto;
     position: relative;
     top: 500px;
+  }
+  
+  .showreelvid {
+    width:1000px; 
+    height:570px;
   }
   
 }
@@ -1147,5 +1166,10 @@
     margin: 0 auto;
     position: relative;
     top: 500px;
+  }
+  
+  .showreelvid {
+    width:1000px; 
+    height:570px;
   }
 }
